@@ -1,0 +1,80 @@
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+#email {
+  display: block;
+  height: 30px;
+  width: 100%;
+  padding-left: 3px;
+  box-sizing: border-box;  /* does not calculate padding in the final weight and height */
+  border: solid #cfcfcf;
+  border-radius: 3px;
+}
+button {
+  diplay: block;
+  width: 100%;
+  background: #3cb878;
+  color: white;
+  border: none;
+  height: 30px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.newsletter-box {
+  border: solid #cfcfcf;
+  border-radius: 3px;
+  padding: 10px;
+  color: grey;
+  position: relative;
+}
+.newsletter-box h3 { /* this is the way to select only those h3's that are inside the newsletter-box */
+  margin-top: 0px;
+}
+#terms {
+  position: relative;
+  top: 2px;
+  left: 0px
+}
+.closex {
+  position: absolute;
+  top: 0px;
+  right: 6px;
+  cursor: pointer;
+}
+#questioncircle {
+  font-size: 70px;
+  color: white;
+  background-color: #3cb878;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.card {
+  color: white;
+  background-color: #3cb878;
+  width: 180px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 10px 3px grey; 
+}
+.cardholder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+/*   height: 300px; */
+}
+#questioncircle:hover {
+  background-color: lime;
+}
